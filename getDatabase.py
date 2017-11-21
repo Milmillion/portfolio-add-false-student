@@ -548,8 +548,6 @@ class Check:
                 student.append(str(m[0]))
             return student
 
-
-
         def gpax_student_id(self,studentID):
             query = session.query(Gpax)
             list_idstudent = []
